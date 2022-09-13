@@ -57,7 +57,7 @@ namespace YooAsset.Editor
 			string staticVersion = resourceVersion.ToString();
 			BuildRunner.Log($"创建静态版本文件：{staticVersionFilePath}");
 			FileUtility.CreateFile(staticVersionFilePath, staticVersion);
-		}
+		}   
 
 		/// <summary>
 		/// 获取资源包列表
